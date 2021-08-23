@@ -5,54 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meteo Version 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<h1>METEO</h1>
     <div class="box">
-        <div>En ce moment</div>
-        <div>
-            <div>icone</div>
+        <h2 id='actu'>En ce moment</h2>
+        <p ></p>
+        <div class = "infos-data">
             <div>
-                <div>LOCALISATION</div>
-                <div>TEMPERATURE</div>
-                <div>Description</div>
+                <img id ="icone" src="img/icones/day/" alt="icone temps meteo">
+            </div>
+            <div class="infos-data-donnees">
+                <div id="local">TimeZone</div>
+                <div id="temp">--°</div>
+                <div id="descr">Conditions</div>
             </div>
         </div>
     </div>
 
     <div class="box">
-        <div>Ces prochaines heures</div>
-        <div>
-            <div>
-                <p>h+3</p>
+        <h2>Ces prochaines heures</h2>
+        <div class="heures">
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+3</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+6</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+9</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+12</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+15</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+18</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+            <div class="bloc-h">
+                <p class="heure-prev-nom">h+21</p>
+                <p class="heure-prev-val">88°</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Ces prochains jours</h2>
+        <div class="heures">
+            <div  class="bloc-j">
+                <p>J+1</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+2</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+3</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+4</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+5</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+6</p>
                 <p>88°</p>
             </div>
-            <div>
-                <p>h+3</p>
+            <div class="bloc-j">
+                <p>J+7</p>
                 <p>88°</p>
             </div>
         </div>
     </div>
     
+<script type = "module" src="js.js"></script>
+
 </body>
 </html>

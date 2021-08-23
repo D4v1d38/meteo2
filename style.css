@@ -1,0 +1,63 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body{
+    background: url('img/sky.jpg') center/cover;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    color: rgb(45, 10, 199);
+}
+
+.box{
+    width: 70%;
+    background: #fff;
+    border: 2px solid rgb(12, 6, 100);
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#icone{
+    height:200px;
+}
+
+.infos-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size:1.5rem;
+}
+
+.infos-data-donnees{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#temp{
+    font-size: 4rem;
+}
+
+.heures{
+    display: grid;
+    grid-template : 100px/repeat(7,1fr);
+}
+.heures > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid rgb(17, 4, 59);
+}
