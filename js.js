@@ -1,6 +1,6 @@
 import joursGlissants from "./ressources/manipDate.js";
 
-const apiKey = 'ab322d7874bfae5a3fa44b1ec740809c';
+const apiKey = '*************************';
 const timezone = document.getElementById('local');
 const tempNow = document.getElementById('temp');
 const description = document.getElementById('descr');
